@@ -33,7 +33,6 @@ dependencies {
     implementation "androidx.recyclerview:recyclerview:1.1.0-alpha02"
 
     def retrofit_version = "2.5.0"
-    implementation "com.squareup.okhttp3:okhttp:3.12.1"
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
 
@@ -53,12 +52,10 @@ dependencies {
 
     def room_version = "2.1.0-alpha04"
     implementation "androidx.room:room-runtime:$room_version"
-    implementation "androidx.room:room-rxjava2:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
 
     def junit_version = "4.12"
     def mockito_version = "2.23.0"
-    def espresso_version = "3.1.1"
     testImplementation "junit:junit:$junit_version"
     testImplementation "org.mockito:mockito-core:$mockito_version"
     testImplementation 'org.robolectric:robolectric:4.1'
@@ -66,8 +63,6 @@ dependencies {
     androidTestImplementation "junit:junit:$junit_version"
     androidTestImplementation "org.mockito:mockito-core:$mockito_version"
     androidTestImplementation "org.mockito:mockito-android:$mockito_version"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
-    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espresso_version"
     androidTestImplementation "androidx.test.ext:junit:1.1.0"
     androidTestImplementation "androidx.test:rules:1.1.1"
 }
