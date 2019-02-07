@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/text_view_specialty_list_header"
+		style="@style/ListingHeader"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:text="@string/specialty_list_header"
+		android:textAlignment="center" />
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/recycler_specialty_list"
+		style="@style/Listing"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+		tools:listitem="@layout/item_specialty" />
+</LinearLayout>

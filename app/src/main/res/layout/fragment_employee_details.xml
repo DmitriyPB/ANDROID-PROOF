@@ -1,0 +1,96 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal">
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<androidx.appcompat.widget.AppCompatTextView
+			style="@style/EmployeeDetailsItemPropertyLabel"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/employee_details_forename_label" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/text_view_employee_details_forename"
+			style="@style/EmployeeDetailsItemPropertyValue"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			tools:text="Иван" />
+	</TableRow>
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<androidx.appcompat.widget.AppCompatTextView
+			style="@style/EmployeeDetailsItemPropertyLabel"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/employee_details_surname_label" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/text_view_employee_details_surname"
+			style="@style/EmployeeDetailsItemPropertyValue"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			tools:text="Барсуков" />
+	</TableRow>
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<androidx.appcompat.widget.AppCompatTextView
+			style="@style/EmployeeDetailsItemPropertyLabel"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/employee_details_birthdate_label" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/text_view_employee_details_birthdate"
+			style="@style/EmployeeDetailsItemPropertyValue"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			tools:text="22.11.1987 г." />
+	</TableRow>
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<androidx.appcompat.widget.AppCompatTextView
+			style="@style/EmployeeDetailsItemPropertyLabel"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/employee_details_age_label" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/text_view_employee_details_age"
+			style="@style/EmployeeDetailsItemPropertyValue"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			tools:text="67 лет" />
+	</TableRow>
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<androidx.appcompat.widget.AppCompatTextView
+			style="@style/EmployeeDetailsItemPropertyLabel"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/employee_details_specialty_label" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/text_view_employee_details_specialty"
+			style="@style/EmployeeDetailsItemPropertyValue"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			tools:text="Санитар" />
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,61 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="ListingHeader" parent="AppTheme">
+		<item name="android:layout_weight">0.1</item>
+		<item name="android:textSize">@dimen/text_size_header</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+	</style>
+
+	<style name="Listing" parent="AppTheme">
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="EmployeeDetailsItemBase" parent="AppTheme">
+		<item name="android:paddingRight">@dimen/padding_regular</item>
+		<item name="android:paddingLeft">@dimen/padding_regular</item>
+		<item name="android:paddingTop">@dimen/padding_small</item>
+		<item name="android:paddingBottom">@dimen/padding_small</item>
+	</style>
+
+	<style name="EmployeeDetailsItemPropertyLabel" parent="EmployeeDetailsItemBase">
+		<item name="android:layout_weight">0.7</item>
+		<item name="android:gravity">end</item>
+	</style>
+
+	<style name="EmployeeDetailsItemPropertyValue" parent="EmployeeDetailsItemBase">
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="EmployeeListItemBase" parent="AppTheme">
+		<item name="android:paddingRight">@dimen/padding_fat</item>
+		<item name="android:paddingLeft">@dimen/padding_fat</item>
+	</style>
+
+	<style name="EmployeeListItemName" parent="EmployeeListItemBase">
+		<item name="android:paddingTop">@dimen/padding_small</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="EmployeeListItemAge" parent="EmployeeListItemBase">
+		<item name="android:paddingBottom">@dimen/padding_small</item>
+		<item name="android:textColor">@color/colorPrimary</item>
+	</style>
+
+	<style name="SpecialtyListItem" parent="AppTheme">
+		<item name="android:textSize">16sp</item>
+		<item name="android:layout_marginBottom">@dimen/padding_small</item>
+		<item name="android:layout_marginTop">@dimen/padding_small</item>
+		<item name="android:paddingTop">@dimen/padding_regular</item>
+		<item name="android:paddingBottom">@dimen/padding_regular</item>
+		<item name="android:paddingRight">@dimen/padding_fat</item>
+		<item name="android:paddingLeft">@dimen/padding_fat</item>
+	</style>
+</resources>

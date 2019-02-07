@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">ANDROID-PROOF</string>
+
+	<string name="specialty_list_header">Список специальностей</string>
+	<string name="specialty_list_loading_failure_message">Не удалось загрузить список специальностей</string>
+
+	<string name="employee_list_header">Список работников</string>
+	<string name="employee_list_loading_failure_message">Не удалось загрузить список работников</string>
+
+	<string name="employee_details_forename_label">Имя</string>
+	<string name="employee_details_surname_label">Фамилия</string>
+	<string name="employee_details_birthdate_label">Дата рождения</string>
+	<string name="employee_details_age_label">Возраст</string>
+	<string name="employee_details_specialty_label">Специальность</string>
+	<string name="employee_details_loading_failure_message">Не удалось загрузить данные работника</string>
+
+	<string name="employee_item_age">Возраст: %1$s</string>
+</resources>

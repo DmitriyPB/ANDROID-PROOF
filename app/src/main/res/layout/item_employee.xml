@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/text_view_employee_item_full_name"
+		style="@style/EmployeeListItemName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:text="Иван Ёжиков" />
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/text_view_employee_item_age"
+		style="@style/EmployeeListItemAge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:text="Возраст: 67" />
+</LinearLayout>
